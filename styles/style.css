@@ -13,12 +13,15 @@
   min-height: 600px;
   max-height: 756px;
   overflow: hidden; /*квадрат при зуме не выпадает из родителя*/
-  z-index: -3;
+  z-index: 1;
+}
+
+.logo {
+  width: 228px;
+  height: 32px;
 }
 
 .logo_place_header {
-  width: 228px;
-  height: 32px;
   position: absolute;
   top: 30px;
   left: 64px;
@@ -285,15 +288,11 @@
   color: #fff;
   flex-direction: column;
 } 
+
 .footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   justify-content:space-between;
-}
-
-.logo_place_footer {
-  width: 228px;
-  height: 32px;
 }
 
 .footer__author {
@@ -301,7 +300,6 @@
   line-height: 25px;
   margin: 18px 0;
 }
-
 
 .footer__column-heading {
   font-size: 18px;
